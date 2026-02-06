@@ -8,10 +8,6 @@ let ages = [25, 28, 24];
 names.push('bowser');
 // ages.push('35')
 ages.push(30);
-let ids = [1, '2', 3];
-// ids.push(false)
-ids.push(4);
-ids.push('5');
 //----------------------------
 // type inference with arrays
 //----------------------------
@@ -27,7 +23,7 @@ const t = things[0]; // can be any of the types initially added
 let user = {
     firstName: 'mario',
     age: 30,
-    id: '1',
+    id: 1,
     // isFictional: true
 };
 // user.name = 25
